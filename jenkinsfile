@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-       maven "lovalMaven"
+       maven "localMaven"
        jdk "Java 11.0.18"
     }
     environment {
